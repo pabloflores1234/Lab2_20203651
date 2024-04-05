@@ -70,7 +70,7 @@
 
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editTextText10"
         android:layout_width="73dp"
         android:layout_height="63dp"
         android:layout_marginStart="321dp"
@@ -86,21 +86,21 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editTextText20"
         android:layout_width="73dp"
         android:layout_height="62dp"
         android:layout_marginStart="322dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="125dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="13dp"
         android:ems="10"
-        android:inputType="text"
         android:gravity="center"
+        android:inputType="text"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/editTextText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
         tools:text="0" />
 
     <!-- Tabla de números generada por chat gpt con el siguiente promp :<TableLayout
@@ -155,6 +155,7 @@
             android:layout_weight="1">
 
             <Button
+                android:id="@+id/boton7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -163,6 +164,7 @@
                 android:textSize="30sp" />
 
             <Button
+                android:id="@+id/boton8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -171,15 +173,16 @@
                 android:textSize="30sp" />
 
             <Button
+                android:id="@+id/boton9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
-
                 android:text="9"
                 android:textSize="30sp" />
 
             <Button
+                android:id="@+id/botondivision"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -198,7 +201,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
-
+                android:id="@+id/boton4"
                 android:text="4"
                 android:textSize="30sp" />
 
@@ -207,7 +210,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
-
+                android:id="@+id/boton5"
                 android:text="5"
                 android:textSize="30sp" />
 
@@ -216,7 +219,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
-
+                android:id="@+id/boton6"
                 android:text="6"
                 android:textSize="30sp" />
 
@@ -225,6 +228,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
+                android:id="@+id/botonpor"
 
                 android:text="*"
                 android:textSize="30sp" />
@@ -240,6 +244,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
+                android:id="@+id/boton1"
 
                 android:text="1"
                 android:textSize="30sp" />
@@ -249,6 +254,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
+                android:id="@+id/boton2"
 
                 android:text="2"
                 android:textSize="30sp" />
@@ -258,6 +264,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
+                android:id="@+id/boton3"
 
                 android:text="3"
                 android:textSize="30sp" />
@@ -267,6 +274,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
+                android:id="@+id/botonmenos"
 
                 android:text="-"
                 android:textSize="30sp" />
@@ -282,7 +290,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
-
+                android:id="@+id/CLR"
                 android:text="CLR"
                 android:textSize="25sp" />
 
@@ -291,6 +299,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
+                android:id="@+id/boton0"
 
                 android:text="0"
                 android:textSize="30sp" />
@@ -300,7 +309,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
-
+                android:id="@+id/botonigual"
                 android:text="="
                 android:textSize="30sp" />
 
@@ -309,6 +318,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#5489B1"
+                android:id="@+id/botonmas"
 
                 android:text="+"
                 android:textSize="30sp" />
